@@ -13,7 +13,6 @@ This is based on
 The borders are interpolated like scipy.signal.savgol_filter would do
 
 Parameters
-----------
 x : array_like
 	List of floats representing the x values of the data
 y : array_like
@@ -26,7 +25,7 @@ window : int (odd)
 	Window length of datapoints. Must be odd and smaller than x
 polynom : int
 	The order of polynom used. Must be smaller than the window size
+
 Returns
--------
 np.array of float
 	The smoothed y values
