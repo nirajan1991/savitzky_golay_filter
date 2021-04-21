@@ -29,3 +29,5 @@ polynom : int
 Returns
 np.array of float
 	The smoothed y values
+	
+Savitzky, A., Golay, M.J.E., 1964. Smoothing and differentiation of data by simplified least squares procedures. Anal. Chem. 36, 1627–1639.
